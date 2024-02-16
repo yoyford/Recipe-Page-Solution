@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--Eggshell);
+    font-size: 16px;
+
+}
+.main_card_body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.recipe_body{
+    
+    width: 40%;
+    background-color: var(--White);
+    padding: 2rem 2rem;
+}
+.omelet{
+    width: 100%;
+    height: auto;
+}
+.h1_body_1{
+    font-family: "Young Serif", serif;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+.body_1_description{
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 1.5rem;
+}
+.preparation_body{
+    background-color: var(--Rose-White);
+    padding: 1.5rem 0rem 1.5rem 1.5rem;
+}
+.preparation_list{
+    font-family: "Outfit", sans-serif;
+    padding-left: 2rem;
+    
+
+    
+}
+.preparation_list li{
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+.h1_preparation{
+    font-family: "Outfit", sans-serif;
+
+}
