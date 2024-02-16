@@ -21,48 +21,57 @@
 body{
     background-color: var(--Eggshell);
     font-size: 16px;
+    
 
 }
 .main_card_body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    
 }
 .recipe_body{
-    
-    width: 40%;
+    margin-top: 110px;
+    width: 44%;
     background-color: var(--White);
-    padding: 2rem 2rem;
+    padding: 2.1rem 2.1rem;
+    border-radius: 1rem;
+    
 }
 .omelet{
     width: 100%;
     height: auto;
+    border-radius: 1rem;
 }
 .h1_body_1{
     font-family: "Young Serif", serif;
     padding: 1.5rem 0rem 1.5rem 0rem;
+    font-weight: 400;
 }
 .body_1_description{
     font-family: "Outfit", sans-serif;
     padding-bottom: 1.5rem;
+    font-weight: 400;
 }
 .preparation_body{
     background-color: var(--Rose-White);
     padding: 1.5rem 0rem 1.5rem 1.5rem;
+    border-radius: 1rem;
 }
 .preparation_list{
     font-family: "Outfit", sans-serif;
     padding-left: 2rem;
-    
-
-    
 }
 .preparation_list li{
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 0rem 0rem 1rem;
 
 }
 .h1_preparation{
     font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    color: var(--Dark-Charcoal);
 
+}
+.preparation_list span{
+    color: var(--Wenge-Brown);
 }
